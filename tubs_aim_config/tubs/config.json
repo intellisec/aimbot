@@ -1,0 +1,1434 @@
+{
+    "aimbot": {
+        "adaptive_smooth_lmgs": true,
+        "adaptive_smooth_multiplier": 14.5,
+        "adaptive_smooth_pistols": true,
+        "adaptive_smooth_rifles": true,
+        "adaptive_smooth_shotguns": true,
+        "adaptive_smooth_smgs": true,
+        "adaptive_smooth_snipers": false,
+        "chance_for_pre_shot": 0.0,
+        "chance_hit_closest_bone_first_noise": 1.0,
+        "chance_to_switch_noise": 1.0,
+        "compensate_velocity": true,
+        "delay_to_start_aiming_noise": 1.0,
+        "delay_to_stop_aiming_noise": 1.0,
+        "divergence_at_first_shot_noise": 1.0,
+        "faceit_aim": false,
+        "first_position_of_critical_hit_noise": 1.0,
+        "fov_noise": 1.0,
+        "hit_chance_while_moving_noise": 1.0,
+        "kill_delay_noise": 1.0,
+        "max_hit_accuracy_for_first_shot_noise": 1.0,
+        "max_hit_accuracy_noise": 1.0,
+        "max_inaccuracy_offset": 1.0,
+        "num_primary_bones_choice": 3,
+        "recoil_scale_noise": 1.0,
+        "save_target_aim": true,
+        "smooth_noise": 1.0,
+        "spiral_aim_enabled": true,
+        "spiral_aim_noise": 1.0,
+        "spiral_aim_relative_position": 1.0,
+        "spiral_aim_x": 1.2999999523162842,
+        "spiral_aim_y": 3.9000000953674316,
+        "time_to_kill_noise": 1.0,
+        "time_to_switch_noise": 1.0
+    },
+    "analyzer": {
+        "action_for_not_enough_values": 2,
+        "matchmakings_draws": 0,
+        "matchmakings_loses": 1,
+        "matchmakings_wins": 15,
+        "next_adjustment": 0,
+        "played_matchmakings": 16,
+        "played_time": 40501
+    },
+    "esp": {
+        "DrawEnemyBombCarrierText": true,
+        "DrawEnemyBox": true,
+        "DrawEnemyDeathsText": true,
+        "DrawEnemyDefuseKitCarrierText": true,
+        "DrawEnemyHealthBar": true,
+        "DrawEnemyHealthText": true,
+        "DrawEnemyKDRatioText": true,
+        "DrawEnemyKillsText": true,
+        "DrawEnemyNameText": true,
+        "DrawEnemyRankText": true,
+        "DrawEnemySnapLines": true,
+        "DrawEnemyTargetBoneMarker": true,
+        "DrawFriendlyBombCarrierText": true,
+        "DrawFriendlyBox": true,
+        "DrawFriendlyDeathsText": true,
+        "DrawFriendlyDefuseKitCarrierText": true,
+        "DrawFriendlyHealthBar": true,
+        "DrawFriendlyHealthText": true,
+        "DrawFriendlyKDRatioText": true,
+        "DrawFriendlyKillsText": true,
+        "DrawFriendlyNameText": true,
+        "DrawFriendlyRankText": true,
+        "DrawFriendlySnapLines": true,
+        "DrawFriendlyTargetBoneMarker": true,
+        "DrawRecoilMarker": true,
+        "DrawTargetBoxHighlight": true,
+        "DrawTargetSnapLineHighlight": true,
+        "Enabled": true,
+        "EnemyBoxColor": {
+            "a": 255,
+            "b": 0,
+            "g": 255,
+            "r": 0
+        },
+        "EnemyBoxLineWidth": 1,
+        "EnemyBoxOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "EnemyBoxOutlineWidth": 1,
+        "EnemyHealthBarBackColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 255
+        },
+        "EnemyHealthBarFrontColor": {
+            "a": 255,
+            "b": 0,
+            "g": 255,
+            "r": 0
+        },
+        "EnemyHealthBarOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "EnemyHealthBarOutlineWidth": 1,
+        "EnemyHealthBarWidth": 1,
+        "EnemyInfoTextColor": {
+            "a": 255,
+            "b": 0,
+            "g": 255,
+            "r": 0
+        },
+        "EnemyInfoTextOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "EnemySnapLineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 255,
+            "r": 0
+        },
+        "EnemySnapLineOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "EnemySnapLineOutlineWidth": 1,
+        "EnemySnapLineWidth": 1,
+        "EnemyTargetBoneMarkerColor": {
+            "a": 255,
+            "b": 0,
+            "g": 255,
+            "r": 0
+        },
+        "EnemyTargetBoneMarkerLineWidth": 1,
+        "EnemyTargetBoneMarkerOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "EnemyTargetBoneMarkerOutlineWidth": 1,
+        "EnemyTargetBoneMarkerSize": 15,
+        "EnemyTargetBoneMarkerType": 2,
+        "FriendlyBoxColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 0
+        },
+        "FriendlyBoxLineWidth": 1,
+        "FriendlyBoxOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "FriendlyBoxOutlineWidth": 1,
+        "FriendlyHealthBarBackColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 255
+        },
+        "FriendlyHealthBarFrontColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 0
+        },
+        "FriendlyHealthBarOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "FriendlyHealthBarOutlineWidth": 1,
+        "FriendlyHealthBarWidth": 1,
+        "FriendlyInfoTextColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 0
+        },
+        "FriendlyInfoTextOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "FriendlySnapLineColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 0
+        },
+        "FriendlySnapLineOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "FriendlySnapLineOutlineWidth": 1,
+        "FriendlySnapLineWidth": 1,
+        "FriendlyTargetBoneMarkerColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 0
+        },
+        "FriendlyTargetBoneMarkerLineWidth": 1,
+        "FriendlyTargetBoneMarkerOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "FriendlyTargetBoneMarkerOutlineWidth": 1,
+        "FriendlyTargetBoneMarkerSize": 15,
+        "FriendlyTargetBoneMarkerType": 2,
+        "RecoilMarkerColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 255
+        },
+        "RecoilMarkerLineWidth": 1,
+        "RecoilMarkerOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "RecoilMarkerOutlineWidth": 1,
+        "RecoilMarkerSize": 15,
+        "RecoilMarkerType": 2,
+        "TargetEnemyBoxColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 255
+        },
+        "TargetEnemyBoxLineWidth": 1,
+        "TargetEnemyBoxOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "TargetEnemyBoxOutlineWidth": 1,
+        "TargetEnemySnapLineColor": {
+            "a": 255,
+            "b": 255,
+            "g": 255,
+            "r": 255
+        },
+        "TargetEnemySnapLineOutlineColor": {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 0
+        },
+        "TargetEnemySnapLineOutlineWidth": 1,
+        "TargetEnemySnapLineWidth": 1
+    },
+    "general": {
+        "aimbot_enabled": false,
+        "bspparsing_enabled": true,
+        "debug_mode": true,
+        "game_windowtitle": "Counter-Strike: Global Offensive",
+        "panic_mode": false,
+        "profiler_enabled": true,
+        "ready_for_use": false,
+        "team_damage": false,
+        "triggerbot_enabled": false
+    },
+    "keys": {
+        "aimbot_hold": 1,
+        "aimbot_toggle": 116,
+        "glowesp_toggle": 118,
+        "ingame_fire": 191,
+        "ingame_switch_weapon": 81,
+        "panic_mode": 35,
+        "profiler_toggle": 120,
+        "reload_config": 46,
+        "start_adjustment": 0,
+        "start_analyzer": 123,
+        "triggerbot_hold": 18,
+        "triggerbot_toggle": 117
+    },
+    "test": [
+        "test_color",
+        {
+            "a": 255,
+            "b": 0,
+            "g": 0,
+            "r": 255
+        }
+    ],
+    "triggerbot": {
+        "delay": 0,
+        "fov_based": false
+    },
+    "weapons": [
+        [
+            1,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "deagle"
+            }
+        ],
+        [
+            2,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "dual_berettas"
+            }
+        ],
+        [
+            3,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "five_seven"
+            }
+        ],
+        [
+            4,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "glock"
+            }
+        ],
+        [
+            7,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "ak47"
+            }
+        ],
+        [
+            8,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "aug"
+            }
+        ],
+        [
+            9,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "awp"
+            }
+        ],
+        [
+            10,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "famas"
+            }
+        ],
+        [
+            11,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "g3sg1"
+            }
+        ],
+        [
+            13,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "galil"
+            }
+        ],
+        [
+            14,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "m249"
+            }
+        ],
+        [
+            16,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "m4a4"
+            }
+        ],
+        [
+            17,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "mac10"
+            }
+        ],
+        [
+            19,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "p90"
+            }
+        ],
+        [
+            24,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "ump45"
+            }
+        ],
+        [
+            25,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "xm1014"
+            }
+        ],
+        [
+            26,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "bizon"
+            }
+        ],
+        [
+            27,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "mag7"
+            }
+        ],
+        [
+            28,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "negev"
+            }
+        ],
+        [
+            29,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "sawed_off"
+            }
+        ],
+        [
+            30,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "tec9"
+            }
+        ],
+        [
+            31,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "zeus"
+            }
+        ],
+        [
+            32,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "p2000"
+            }
+        ],
+        [
+            33,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "mp7"
+            }
+        ],
+        [
+            34,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "mp9"
+            }
+        ],
+        [
+            35,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "nova"
+            }
+        ],
+        [
+            36,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "p250"
+            }
+        ],
+        [
+            38,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "scar-20"
+            }
+        ],
+        [
+            39,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "ssg553"
+            }
+        ],
+        [
+            40,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "scout"
+            }
+        ],
+        [
+            60,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "m4a1s"
+            }
+        ],
+        [
+            61,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "usp"
+            }
+        ],
+        [
+            63,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "cz75"
+            }
+        ],
+        [
+            64,
+            {
+                "aimbot": {
+                    "aim_time_per_degree": 200.0,
+                    "chance_hit_closest_bone_first": 1.0,
+                    "chance_to_switch": 0.0,
+                    "delay": 50,
+                    "delay_to_stop_aiming": 25,
+                    "divergence_at_first_shot": 3.0,
+                    "divergence_if_spotted": 10.0,
+                    "enabled": false,
+                    "end_bullet": 30,
+                    "first_position_of_critical_hit": 1.0,
+                    "fov": 5.0,
+                    "hit_chance_while_moving": 1.0,
+                    "delay_after_kill": 200,
+                    "max_hit_accuracy": 1.0,
+                    "max_hit_accuracy_for_first_shot": 1.0,
+                    "primary_bones": [
+                        6,
+                        8,
+                        0
+                    ],
+                    "recoil_scale": 2.0,
+                    "smooth": 50.0,
+                    "start_bullet": 0,
+                    "time_to_kill": 0,
+                    "time_to_switch": 0
+                },
+                "name": "r8"
+            }
+        ]
+    ]
+}

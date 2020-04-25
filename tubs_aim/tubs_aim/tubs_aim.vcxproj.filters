@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\utils">
+      <UniqueIdentifier>{32454ae6-6898-4f18-a504-84a60a16be6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\utils">
+      <UniqueIdentifier>{1dcc557b-9794-4c06-b605-75b9b86c6377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\memory">
+      <UniqueIdentifier>{a19626af-b5c8-4b1d-9c0f-f91a3a329b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\game">
+      <UniqueIdentifier>{c2bc423a-4245-4147-80f4-7e5b992500e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\game">
+      <UniqueIdentifier>{eb163e2d-7add-4007-984b-3b3002389bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\hacks">
+      <UniqueIdentifier>{6303f742-8983-46c5-9975-6cab74d2fdb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\hacks">
+      <UniqueIdentifier>{5c90100b-0ca6-4d3b-b19d-10cbeeb44967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\profiler">
+      <UniqueIdentifier>{9d71a244-d405-4c60-8b45-1c711c7e6607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\profiler">
+      <UniqueIdentifier>{d7f789fe-5c13-44f0-935d-f3952c84601b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ValveBSP">
+      <UniqueIdentifier>{79ca822c-4f4c-4fce-983b-8bdbaf61ed79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ValveBSP">
+      <UniqueIdentifier>{2268e8f3-ebbb-420b-a2c8-d0d8d63152eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\memory">
+      <UniqueIdentifier>{8b497a31-cb8b-4b18-a030-9950c3b38d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\main">
+      <UniqueIdentifier>{c230fb15-9a8e-4b93-903c-da8b4c18f99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\main">
+      <UniqueIdentifier>{49760be4-8eb3-42c8-b133-21b31d9f561d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\math">
+      <UniqueIdentifier>{996b7729-2402-4775-a916-df6d10a32737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\overlay">
+      <UniqueIdentifier>{2688dee8-8fd5-4b40-a436-88f3c417be87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\overlay">
+      <UniqueIdentifier>{a0ac3c2a-7f40-4759-aa36-88229f7adf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\math">
+      <UniqueIdentifier>{4f2ccdde-c291-4f4a-8bea-f134972519fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Headerdateien\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Headerdateien\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Headerdateien\game</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Headerdateien\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Headerdateien\game</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Headerdateien\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Headerdateien\game</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler.h">
+      <Filter>Headerdateien\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Headerdateien\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="visibility.h">
+      <Filter>Headerdateien\main</Filter>
+    </ClInclude>
+    <ClInclude Include="assistant.h">
+      <Filter>Headerdateien\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>Headerdateien\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Headerdateien\math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Headerdateien\math</Filter>
+    </ClInclude>
+    <ClInclude Include="shooter.h">
+      <Filter>Headerdateien\main</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor.h">
+      <Filter>Headerdateien\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="analyzer.h">
+      <Filter>Headerdateien\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>Headerdateien\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay_window.h">
+      <Filter>Headerdateien\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d.h">
+      <Filter>Headerdateien\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_profile.h">
+      <Filter>Headerdateien\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="feature_data.h">
+      <Filter>Headerdateien\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ValveBSP\BSPFile.hpp">
+      <Filter>Headerdateien\ValveBSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ValveBSP\BSPFlags.hpp">
+      <Filter>Headerdateien\ValveBSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ValveBSP\BSPParser.hpp">
+      <Filter>Headerdateien\ValveBSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ValveBSP\BSPStructure.hpp">
+      <Filter>Headerdateien\ValveBSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ValveBSP\TraceRay.hpp">
+      <Filter>Headerdateien\ValveBSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ValveBSP\Matrix.hpp">
+      <Filter>Headerdateien\ValveBSP</Filter>
+    </ClInclude>
+    <ClInclude Include="game_math.h">
+      <Filter>Headerdateien\math</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_updater.h">
+      <Filter>Headerdateien\main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Quelldateien\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>Quelldateien\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Quelldateien\game</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>Quelldateien\game</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Quelldateien\game</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>Quelldateien\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler.cpp">
+      <Filter>Quelldateien\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Quelldateien\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="visibility.cpp">
+      <Filter>Quelldateien\main</Filter>
+    </ClCompile>
+    <ClCompile Include="assistant.cpp">
+      <Filter>Quelldateien\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>Quelldateien\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="shooter.cpp">
+      <Filter>Quelldateien\main</Filter>
+    </ClCompile>
+    <ClCompile Include="analyzer.cpp">
+      <Filter>Quelldateien\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor.cpp">
+      <Filter>Quelldateien\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>Quelldateien\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay_window.cpp">
+      <Filter>Quelldateien\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d.cpp">
+      <Filter>Quelldateien\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Quelldateien\math</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_profile.cpp">
+      <Filter>Quelldateien\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="tubs.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="feature_data.cpp">
+      <Filter>Quelldateien\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ValveBSP\BSPParser.cpp">
+      <Filter>Quelldateien\ValveBSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ValveBSP\BSPFile.cpp">
+      <Filter>Quelldateien\ValveBSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ValveBSP\TraceRay.cpp">
+      <Filter>Quelldateien\ValveBSP</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_updater.cpp">
+      <Filter>Quelldateien\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tubs_aim.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
